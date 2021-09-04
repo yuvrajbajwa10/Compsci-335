@@ -154,6 +154,3 @@ C:\Users\xye002\data\work\Teaching\335\code\examples\WebAPIEx6-Final\obj\Debug\n
 C:\Users\xye002\data\work\Teaching\335\code\examples\WebAPIEx6-Final\obj\Debug\net5.0\ref\WebAPIEx6.dll
 C:\Users\xye002\data\work\Teaching\335\code\examples\WebAPIEx6-Final\obj\Debug\net5.0\WebAPIEx6.pdb
 C:\Users\xye002\data\work\Teaching\335\code\examples\WebAPIEx6-Final\obj\Debug\net5.0\WebAPIEx6.genruntimeconfig.cache
-D:\Github workspace\Compsci 335\server side examples\examples\WebAPIEx6-Final\obj\Debug\net5.0\WebAPIEx6.dll
-D:\Github workspace\Compsci 335\server side examples\examples\WebAPIEx6-Final\obj\Debug\net5.0\ref\WebAPIEx6.dll
-D:\Github workspace\Compsci 335\server side examples\examples\WebAPIEx6-Final\obj\Debug\net5.0\WebAPIEx6.pdb

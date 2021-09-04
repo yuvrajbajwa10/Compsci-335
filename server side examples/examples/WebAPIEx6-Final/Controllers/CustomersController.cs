@@ -29,8 +29,8 @@ namespace WebAPIEx6.Controllers
             return Ok(c);
         }
 
-        // GET /webapi/GetCustomer/{ID}
-        [HttpGet("GetCustomer/{ID}")]
+        // GET /webapi/GetCustomer/{id}
+        [HttpGet("GetCustomer/{id}")]
         public ActionResult<CustomerOutDto> GetCustomer(int id)
         {
             Customer customer = _repository.GetCustomerByID(id);

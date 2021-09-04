@@ -24,8 +24,11 @@ namespace WebAPIEx6.Controllers
         [HttpGet("GetCustomers")]
         public async Task<ActionResult<IEnumerable<CustomerOutDto>>> GetCustomersAsync()
         {
-            IEnumerable<Customer> customers = await _repository.GetAllCustomersAsync();
-            IEnumerable<CustomerOutDto> c = customers.Select(e => new CustomerOutDto { Id = e.Id, FirstName = e.FirstName, LastName = e.LastName });
+            Task< IEnumerable < Customer >> t = _repository.GetAllCustomersAsync();
+            await t;
+            IEnumerable<Customer> customers = t.Result;
+            //IEnumerable <Customer> customers = await _repository.GetAllCustomersAsync();
+            IEnumerable <CustomerOutDto> c = customers.Select(e => new CustomerOutDto { Id = e.Id, FirstName = e.FirstName, LastName = e.LastName });
             return Ok(c);
         }
 
@@ -47,10 +50,8 @@ namespace WebAPIEx6.Controllers
         public async Task<ActionResult<CustomerOutDto>> AddCustomerAsync(CustomerInputDto customer)
         {
             Customer c = new Customer { FirstName = customer.FirstName, LastName = customer.LastName, Email = customer.Email };
-            await _repository.AddCustomerAsync(c);
-            IEnumerable<Customer> cs = await _repository.GetAllCustomersAsync();
-            c = cs.FirstOrDefault(e => e.FirstName == customer.FirstName && e.LastName == customer.LastName && e.Email == customer.Email);
-            CustomerOutDto co = new CustomerOutDto { Id = c.Id, FirstName = c.FirstName, LastName = c.LastName };
+            Customer addedCustomer = await _repository.AddCustomerAsync(c);
+            CustomerOutDto co = new CustomerOutDto { Id = addedCustomer.Id, FirstName = addedCustomer.FirstName, LastName = addedCustomer.LastName };
             return CreatedAtAction(nameof(GetCustomerAsync), new { id = co.Id }, co);
         }
 

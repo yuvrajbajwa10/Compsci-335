@@ -1,0 +1,10 @@
+is_global = true
+build_property.TargetFramework = net5.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.PublishSingleFile = 
+build_property.IncludeAllContentForSelfExtract = 
+build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = SHIT_Web_API_A1_YBAJ161
+build_property.ProjectDir = D:\Github workspace\Compsci 335\A1 Data\SHIT_Web_API_A1_YBAJ161_A1\SHIT_Web_API_A1_YBAJ161\
