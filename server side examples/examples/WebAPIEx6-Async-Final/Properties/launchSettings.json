@@ -1,0 +1,25 @@
+﻿//{
+//    "WebAPIEx1": {
+//        "commandName": "Project",
+//        "dotnetRunMessages": "true",
+//        "launchBrowser": true,
+//        "launchUrl": "webapi/customer",
+//        "applicationUrl": "https://localhost:5001;http://localhost:5000",
+//        "environmentVariables": {
+//            "ASPNETCORE_ENVIRONMENT": "Development"
+//        }
+//    }
+//}
+{
+    "profiles": {
+        "WebAPIEx6-Asybc": {
+            "commandName": "Project",
+            "dotnetRunMessages": "true",
+            "applicationUrl": "https://localhost:8080;http://localhost:8081",
+            "urls": "",
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+C:\Users\xye002\data\work\Teaching\335\code\examples\LingWhereEx\bin\Debug\netcoreapp2.1\LinqWhereEx.deps.json
+C:\Users\xye002\data\work\Teaching\335\code\examples\LingWhereEx\bin\Debug\netcoreapp2.1\LinqWhereEx.runtimeconfig.json
+C:\Users\xye002\data\work\Teaching\335\code\examples\LingWhereEx\bin\Debug\netcoreapp2.1\LinqWhereEx.runtimeconfig.dev.json
+C:\Users\xye002\data\work\Teaching\335\code\examples\LingWhereEx\bin\Debug\netcoreapp2.1\LinqWhereEx.dll
+C:\Users\xye002\data\work\Teaching\335\code\examples\LingWhereEx\bin\Debug\netcoreapp2.1\LinqWhereEx.pdb
+C:\Users\xye002\data\work\Teaching\335\code\examples\LingWhereEx\obj\Debug\netcoreapp2.1\LinqWhereEx.csprojAssemblyReference.cache
+C:\Users\xye002\data\work\Teaching\335\code\examples\LingWhereEx\obj\Debug\netcoreapp2.1\LinqWhereEx.AssemblyInfoInputs.cache
+C:\Users\xye002\data\work\Teaching\335\code\examples\LingWhereEx\obj\Debug\netcoreapp2.1\LinqWhereEx.AssemblyInfo.cs
+C:\Users\xye002\data\work\Teaching\335\code\examples\LingWhereEx\obj\Debug\netcoreapp2.1\LinqWhereEx.csproj.CoreCompileInputs.cache
+C:\Users\xye002\data\work\Teaching\335\code\examples\LingWhereEx\obj\Debug\netcoreapp2.1\LinqWhereEx.dll
+C:\Users\xye002\data\work\Teaching\335\code\examples\LingWhereEx\obj\Debug\netcoreapp2.1\LinqWhereEx.pdb
+C:\Users\xye002\data\work\Teaching\335\code\examples\LingWhereEx\obj\Debug\netcoreapp2.1\LinqWhereEx.genruntimeconfig.cache

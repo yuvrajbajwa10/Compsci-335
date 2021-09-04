@@ -1,0 +1,12 @@
+C:\Users\xye002\data\work\Teaching\335\code\FuncEx\FuncEx\DelegateSimpleEx\obj\Debug\netcoreapp2.1\DelegateSimpleEx.csprojAssemblyReference.cache
+C:\Users\xye002\data\work\Teaching\335\code\FuncEx\FuncEx\DelegateSimpleEx\obj\Debug\netcoreapp2.1\DelegateSimpleEx.csproj.CoreCompileInputs.cache
+C:\Users\xye002\data\work\Teaching\335\code\FuncEx\FuncEx\DelegateSimpleEx\obj\Debug\netcoreapp2.1\DelegateSimpleEx.AssemblyInfoInputs.cache
+C:\Users\xye002\data\work\Teaching\335\code\FuncEx\FuncEx\DelegateSimpleEx\obj\Debug\netcoreapp2.1\DelegateSimpleEx.AssemblyInfo.cs
+C:\Users\xye002\data\work\Teaching\335\code\FuncEx\FuncEx\DelegateSimpleEx\bin\Debug\netcoreapp2.1\DelegateSimpleEx.deps.json
+C:\Users\xye002\data\work\Teaching\335\code\FuncEx\FuncEx\DelegateSimpleEx\bin\Debug\netcoreapp2.1\DelegateSimpleEx.runtimeconfig.json
+C:\Users\xye002\data\work\Teaching\335\code\FuncEx\FuncEx\DelegateSimpleEx\bin\Debug\netcoreapp2.1\DelegateSimpleEx.runtimeconfig.dev.json
+C:\Users\xye002\data\work\Teaching\335\code\FuncEx\FuncEx\DelegateSimpleEx\bin\Debug\netcoreapp2.1\DelegateSimpleEx.dll
+C:\Users\xye002\data\work\Teaching\335\code\FuncEx\FuncEx\DelegateSimpleEx\bin\Debug\netcoreapp2.1\DelegateSimpleEx.pdb
+C:\Users\xye002\data\work\Teaching\335\code\FuncEx\FuncEx\DelegateSimpleEx\obj\Debug\netcoreapp2.1\DelegateSimpleEx.dll
+C:\Users\xye002\data\work\Teaching\335\code\FuncEx\FuncEx\DelegateSimpleEx\obj\Debug\netcoreapp2.1\DelegateSimpleEx.pdb
+C:\Users\xye002\data\work\Teaching\335\code\FuncEx\FuncEx\DelegateSimpleEx\obj\Debug\netcoreapp2.1\DelegateSimpleEx.genruntimeconfig.cache

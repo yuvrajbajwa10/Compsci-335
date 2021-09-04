@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "AsyncEx3/1.0.0": {
+        "runtime": {
+          "AsyncEx3.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AsyncEx3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

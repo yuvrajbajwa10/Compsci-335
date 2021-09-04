@@ -1,0 +1,11 @@
+C:\Users\xye002\data\work\Teaching\335\code\examples\LinqEx\bin\Debug\netcoreapp2.1\LinqEx.deps.json
+C:\Users\xye002\data\work\Teaching\335\code\examples\LinqEx\bin\Debug\netcoreapp2.1\LinqEx.runtimeconfig.json
+C:\Users\xye002\data\work\Teaching\335\code\examples\LinqEx\bin\Debug\netcoreapp2.1\LinqEx.runtimeconfig.dev.json
+C:\Users\xye002\data\work\Teaching\335\code\examples\LinqEx\bin\Debug\netcoreapp2.1\LinqEx.dll
+C:\Users\xye002\data\work\Teaching\335\code\examples\LinqEx\bin\Debug\netcoreapp2.1\LinqEx.pdb
+C:\Users\xye002\data\work\Teaching\335\code\examples\LinqEx\obj\Debug\netcoreapp2.1\LinqEx.AssemblyInfoInputs.cache
+C:\Users\xye002\data\work\Teaching\335\code\examples\LinqEx\obj\Debug\netcoreapp2.1\LinqEx.AssemblyInfo.cs
+C:\Users\xye002\data\work\Teaching\335\code\examples\LinqEx\obj\Debug\netcoreapp2.1\LinqEx.csproj.CoreCompileInputs.cache
+C:\Users\xye002\data\work\Teaching\335\code\examples\LinqEx\obj\Debug\netcoreapp2.1\LinqEx.dll
+C:\Users\xye002\data\work\Teaching\335\code\examples\LinqEx\obj\Debug\netcoreapp2.1\LinqEx.pdb
+C:\Users\xye002\data\work\Teaching\335\code\examples\LinqEx\obj\Debug\netcoreapp2.1\LinqEx.genruntimeconfig.cache
