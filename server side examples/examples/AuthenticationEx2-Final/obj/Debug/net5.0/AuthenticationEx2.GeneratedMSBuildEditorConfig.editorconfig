@@ -6,3 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.PublishSingleFile = 
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
+build_property.RootNamespace = AuthenticationEx2
+build_property.ProjectDir = D:\Github workspace\Compsci 335\server side examples\examples\AuthenticationEx2-Final\

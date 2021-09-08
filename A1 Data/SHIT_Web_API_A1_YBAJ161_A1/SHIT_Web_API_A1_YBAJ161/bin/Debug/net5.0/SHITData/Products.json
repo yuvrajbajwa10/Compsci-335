@@ -1,0 +1,62 @@
+﻿[
+  {
+    "Id": 156571347,
+    "Name": "Water Bottle",
+    "Description": "Brushed stainless steel water bottle. Soft matt finish. Dishwasher-proof.",
+    "Price": 10.99
+  },
+  {
+    "Id": 156572458,
+    "Name": "Coffee Mug",
+    "Description": "White coffee mug. Stain-resistant brown interior. Dishwasher-proof. Make a lasting statement at the coffee club!",
+    "Price": 8.99
+  },
+  {
+    "Id": 165773457,
+    "Name": "Women's hat",
+    "Description": "Women's printed cotton hat. Not suitable for machine wash.",
+    "Price": 12.99
+  },
+  {
+    "Id": 324284878,
+    "Name": "Women's Tee",
+    "Description": "Bright orange Tee for women. Made from woven cotton. Machine washable.",
+    "Price": 14.99
+  },
+  {
+    "Id": 325183578,
+    "Name": "Umbrella",
+    "Description": "Orange umbrella. Modern styling. Unisex design. UV-resistant fabric, allowing use as parasol.",
+    "Price": 12.99
+  },
+  {
+    "Id": 412572458,
+    "Name": "Women's Black Top",
+    "Description": "Black top. Fade-resistant polyester, containing 50% recycled material.",
+    "Price": 14.99
+  },
+  {
+    "Id": 412584658,
+    "Name": "Men's Printed Tee",
+    "Description": "Printed Tee with front pocket. Polycotton and machine washable.",
+    "Price": 14.99
+  },
+  {
+    "Id": 413632458,
+    "Name": "Men's White Tee",
+    "Description": "Plain white tee with logo. Stand out in the crowd. Machine washable pure cotton.",
+    "Price": 14.99
+  },
+  {
+    "Id": 522163231,
+    "Name": "Children's toy",
+    "Description": "Our mascot Pooh riding high. Child-safe plastic. Not suitable for children under the age of 3.",
+    "Price": 14.99
+  },
+  {
+    "Id": 565783357,
+    "Name": "Men's Cap",
+    "Description": "Woven high-strength cotton cap. Beige. UV-resistant. Not suitable for machine wash.",
+    "Price": 12.99
+  }
+]

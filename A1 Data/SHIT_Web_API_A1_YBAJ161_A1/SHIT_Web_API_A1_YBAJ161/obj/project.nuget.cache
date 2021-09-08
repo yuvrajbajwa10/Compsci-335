@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "L3zimPMmaM3gXtncuInZBcM2xvg/J0d3XTEgLvrS6fhUiwZeqaIpY24xBcLDdjdxiYMlgF50QYUeLZQrxlMfrg==",
+  "dgSpecHash": "b3n3/SYQtYgEwVK+FFPk7E6O9fGBwqnSfp4yFVZb02+XBqUYr2hIL0UmXTkLiH9p/Rp3S9AJYFPOQuPi1AeTpA==",
   "success": true,
   "projectFilePath": "D:\\Github workspace\\Compsci 335\\A1 Data\\SHIT_Web_API_A1_YBAJ161_A1\\SHIT_Web_API_A1_YBAJ161\\SHIT_Web_API_A1_YBAJ161.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Yuvraj Bajwa\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\Yuvraj Bajwa\\.nuget\\packages\\json.net\\1.0.33\\json.net.1.0.33.nupkg.sha512",
     "C:\\Users\\Yuvraj Bajwa\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\Yuvraj Bajwa\\.nuget\\packages\\microsoft.data.sqlite.core\\5.0.9\\microsoft.data.sqlite.core.5.0.9.nupkg.sha512",
     "C:\\Users\\Yuvraj Bajwa\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\3.1.6\\microsoft.dotnet.platformabstractions.3.1.6.nupkg.sha512",
