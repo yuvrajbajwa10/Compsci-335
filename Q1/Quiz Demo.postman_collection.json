@@ -1,0 +1,960 @@
+{
+	"info": {
+		"_postman_id": "8ca422ad-3a67-464b-9541-b42f79679071",
+		"name": "Quiz Demo",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetVersion",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cws.auckland.ac.nz/335Qz1X/quizapi/GetVersion",
+					"protocol": "https",
+					"host": [
+						"cws",
+						"auckland",
+						"ac",
+						"nz"
+					],
+					"path": [
+						"335Qz1X",
+						"quizapi",
+						"GetVersion"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetCourseInfo valid",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cws.auckland.ac.nz/335Qz1X/quizapi/GetCourseInfo/CS101",
+					"protocol": "https",
+					"host": [
+						"cws",
+						"auckland",
+						"ac",
+						"nz"
+					],
+					"path": [
+						"335Qz1X",
+						"quizapi",
+						"GetCourseInfo",
+						"CS101"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetCourseInfo invalid",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cws.auckland.ac.nz/335Qz1X/quizapi/GetCourseInfo/CS103",
+					"protocol": "https",
+					"host": [
+						"cws",
+						"auckland",
+						"ac",
+						"nz"
+					],
+					"path": [
+						"335Qz1X",
+						"quizapi",
+						"GetCourseInfo",
+						"CS103"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetMarks",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cws.auckland.ac.nz/335Qz1X/quizapi/GetMarks",
+					"protocol": "https",
+					"host": [
+						"cws",
+						"auckland",
+						"ac",
+						"nz"
+					],
+					"path": [
+						"335Qz1X",
+						"quizapi",
+						"GetMarks"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetMarkByID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cws.auckland.ac.nz/335Qz1X/quizapi/GetMarkByID/600003",
+					"protocol": "https",
+					"host": [
+						"cws",
+						"auckland",
+						"ac",
+						"nz"
+					],
+					"path": [
+						"335Qz1X",
+						"quizapi",
+						"GetMarkByID",
+						"600003"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetMarkByID not found",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cws.auckland.ac.nz/335Qz1X/quizapi/GetMarkByID/1234",
+					"protocol": "https",
+					"host": [
+						"cws",
+						"auckland",
+						"ac",
+						"nz"
+					],
+					"path": [
+						"335Qz1X",
+						"quizapi",
+						"GetMarkByID",
+						"1234"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SetMark new record",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\" :60012,\r\n    \"A1\" : 22,\r\n    \"A2\" : 33\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://cws.auckland.ac.nz/335Qz1X/quizapi/SetMark",
+					"protocol": "https",
+					"host": [
+						"cws",
+						"auckland",
+						"ac",
+						"nz"
+					],
+					"path": [
+						"335Qz1X",
+						"quizapi",
+						"SetMark"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SetMark existing record",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\" :60011,\r\n    \"A1\" : 22.5,\r\n    \"A2\" : 34\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://cws.auckland.ac.nz/335Qz1X/quizapi/SetMark",
+					"protocol": "https",
+					"host": [
+						"cws",
+						"auckland",
+						"ac",
+						"nz"
+					],
+					"path": [
+						"335Qz1X",
+						"quizapi",
+						"SetMark"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetMarksAuth-no header",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cws.auckland.ac.nz/335Qz1X/quizapi/GetMarksAuth",
+					"protocol": "https",
+					"host": [
+						"cws",
+						"auckland",
+						"ac",
+						"nz"
+					],
+					"path": [
+						"335Qz1X",
+						"quizapi",
+						"GetMarksAuth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetMarksAuth-invalid 1",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "11",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "70111",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cws.auckland.ac.nz/335Qz1X/quizapi/GetMarksAuth",
+					"protocol": "https",
+					"host": [
+						"cws",
+						"auckland",
+						"ac",
+						"nz"
+					],
+					"path": [
+						"335Qz1X",
+						"quizapi",
+						"GetMarksAuth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetMarksAuth-invalid 2",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "033",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "600033",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cws.auckland.ac.nz/335Qz1X/quizapi/GetMarksAuth",
+					"protocol": "https",
+					"host": [
+						"cws",
+						"auckland",
+						"ac",
+						"nz"
+					],
+					"path": [
+						"335Qz1X",
+						"quizapi",
+						"GetMarksAuth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetMarksAuth-valid",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "023",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "700023",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cws.auckland.ac.nz/335Qz1X/quizapi/GetMarksAuth",
+					"protocol": "https",
+					"host": [
+						"cws",
+						"auckland",
+						"ac",
+						"nz"
+					],
+					"path": [
+						"335Qz1X",
+						"quizapi",
+						"GetMarksAuth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetMarkByIDAuth no auth header",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cws.auckland.ac.nz/335Qz1X/quizapi/GetMarkByIDAuth/60111",
+					"protocol": "https",
+					"host": [
+						"cws",
+						"auckland",
+						"ac",
+						"nz"
+					],
+					"path": [
+						"335Qz1X",
+						"quizapi",
+						"GetMarkByIDAuth",
+						"60111"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetMarkByIDAuth Staff invalid",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "700023",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "11",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cws.auckland.ac.nz/335Qz1X/quizapi/GetMarkByIDAuth/60111",
+					"protocol": "https",
+					"host": [
+						"cws",
+						"auckland",
+						"ac",
+						"nz"
+					],
+					"path": [
+						"335Qz1X",
+						"quizapi",
+						"GetMarkByIDAuth",
+						"60111"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetMarkByIDAuth Staff valid 1",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "023",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "700023",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cws.auckland.ac.nz/335Qz1X/quizapi/GetMarkByIDAuth/600003",
+					"protocol": "https",
+					"host": [
+						"cws",
+						"auckland",
+						"ac",
+						"nz"
+					],
+					"path": [
+						"335Qz1X",
+						"quizapi",
+						"GetMarkByIDAuth",
+						"600003"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetMarkByIDAuth Staff valid 2",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "023",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "700023",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cws.auckland.ac.nz/335Qz1X/quizapi/GetMarkByID/601119",
+					"protocol": "https",
+					"host": [
+						"cws",
+						"auckland",
+						"ac",
+						"nz"
+					],
+					"path": [
+						"335Qz1X",
+						"quizapi",
+						"GetMarkByID",
+						"601119"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetMarkByIDAuth Student invalid",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "username",
+							"value": "600003",
+							"type": "string"
+						},
+						{
+							"key": "password",
+							"value": "11",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cws.auckland.ac.nz/335Qz1X/quizapi/GetMarkByIDAuth/600003",
+					"protocol": "https",
+					"host": [
+						"cws",
+						"auckland",
+						"ac",
+						"nz"
+					],
+					"path": [
+						"335Qz1X",
+						"quizapi",
+						"GetMarkByIDAuth",
+						"600003"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetMarkByIDAuth Student valid 1",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "003",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "600003",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cws.auckland.ac.nz/335Qz1X/quizapi/GetMarkByIDAuth/600003",
+					"protocol": "https",
+					"host": [
+						"cws",
+						"auckland",
+						"ac",
+						"nz"
+					],
+					"path": [
+						"335Qz1X",
+						"quizapi",
+						"GetMarkByIDAuth",
+						"600003"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetMarkByIDAuth Student valid 2",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "003",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "600003",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cws.auckland.ac.nz/335Qz1X/quizapi/GetMarkByIDAuth/600005",
+					"protocol": "https",
+					"host": [
+						"cws",
+						"auckland",
+						"ac",
+						"nz"
+					],
+					"path": [
+						"335Qz1X",
+						"quizapi",
+						"GetMarkByIDAuth",
+						"600005"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SetMarkAuth no auth header",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\" :345,\r\n    \"A1\" : 22,\r\n    \"A2\" : 34\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://cws.auckland.ac.nz/335Qz1X/quizapi/SetMarkAuth",
+					"protocol": "https",
+					"host": [
+						"cws",
+						"auckland",
+						"ac",
+						"nz"
+					],
+					"path": [
+						"335Qz1X",
+						"quizapi",
+						"SetMarkAuth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SetMarkAuth invalid",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "1234",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "1234",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\" :345,\r\n    \"A1\" : 22,\r\n    \"A2\" : 34\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://cws.auckland.ac.nz/335Qz1X/quizapi/SetMarkAuth",
+					"protocol": "https",
+					"host": [
+						"cws",
+						"auckland",
+						"ac",
+						"nz"
+					],
+					"path": [
+						"335Qz1X",
+						"quizapi",
+						"SetMarkAuth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SetMarkAuth valid new record",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "023",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "700023",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\" :6011,\r\n    \"A1\" : 22.5,\r\n    \"A2\" : 34\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://cws.auckland.ac.nz/335Qz1X/quizapi/SetMarkAuth",
+					"protocol": "https",
+					"host": [
+						"cws",
+						"auckland",
+						"ac",
+						"nz"
+					],
+					"path": [
+						"335Qz1X",
+						"quizapi",
+						"SetMarkAuth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "SetMarkAuth valid existing record",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "023",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "700023",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"id\" :6011,\r\n    \"A1\" : 22,\r\n    \"A2\" : 35\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://cws.auckland.ac.nz/335Qz1X/quizapi/SetMarkAuth",
+					"protocol": "https",
+					"host": [
+						"cws",
+						"auckland",
+						"ac",
+						"nz"
+					],
+					"path": [
+						"335Qz1X",
+						"quizapi",
+						"SetMarkAuth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetSchedule valid 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cws.auckland.ac.nz/335Qz1X/quizapi/GetSchedule/CS102",
+					"protocol": "https",
+					"host": [
+						"cws",
+						"auckland",
+						"ac",
+						"nz"
+					],
+					"path": [
+						"335Qz1X",
+						"quizapi",
+						"GetSchedule",
+						"CS102"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetSchedule valid 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cws.auckland.ac.nz/335Qz1X/quizapi/GetSchedule/MATH123",
+					"protocol": "https",
+					"host": [
+						"cws",
+						"auckland",
+						"ac",
+						"nz"
+					],
+					"path": [
+						"335Qz1X",
+						"quizapi",
+						"GetSchedule",
+						"MATH123"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetSchedule valid 3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cws.auckland.ac.nz/335Qz1X/quizapi/GetSchedule/CS101",
+					"protocol": "https",
+					"host": [
+						"cws",
+						"auckland",
+						"ac",
+						"nz"
+					],
+					"path": [
+						"335Qz1X",
+						"quizapi",
+						"GetSchedule",
+						"CS101"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetSchedule invalid",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cws.auckland.ac.nz/335Qz1X/quizapi/GetSchedule/MATH111",
+					"protocol": "https",
+					"host": [
+						"cws",
+						"auckland",
+						"ac",
+						"nz"
+					],
+					"path": [
+						"335Qz1X",
+						"quizapi",
+						"GetSchedule",
+						"MATH111"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetTimetable valid 1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cws.auckland.ac.nz/335Qz1X/quizapi/GetTimetable/600660",
+					"protocol": "https",
+					"host": [
+						"cws",
+						"auckland",
+						"ac",
+						"nz"
+					],
+					"path": [
+						"335Qz1X",
+						"quizapi",
+						"GetTimetable",
+						"600660"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetTimetable valid 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cws.auckland.ac.nz/335Qz1X/quizapi/GetTimetable/600655",
+					"protocol": "https",
+					"host": [
+						"cws",
+						"auckland",
+						"ac",
+						"nz"
+					],
+					"path": [
+						"335Qz1X",
+						"quizapi",
+						"GetTimetable",
+						"600655"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetTimetable invalid",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://cws.auckland.ac.nz/335Qz1X/quizapi/GetTimetable/60060",
+					"protocol": "https",
+					"host": [
+						"cws",
+						"auckland",
+						"ac",
+						"nz"
+					],
+					"path": [
+						"335Qz1X",
+						"quizapi",
+						"GetTimetable",
+						"60060"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

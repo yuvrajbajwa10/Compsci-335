@@ -1,0 +1,143 @@
+body {
+  background-color: White;
+  text-align: center;
+}
+.navBar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border: 3px solid green;
+
+  list-style-type: none;
+  padding-left: 0;
+  background: lightgreen;
+  border-radius: 10px;
+}
+
+.navBarLink li {
+  border: 3px solid green;
+  padding: 10px;
+}
+.navBarLink:hover {
+  border-radius: 3px;
+  background-color: lightslategrey;
+  color: white;
+  padding: 10px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.navBarLink a::after {
+  display: inline-flexbox;
+  color: #000;
+  content: var(--Contentvar);
+  font-size: 80%;
+  font-weight: bold;
+  padding: 0 10px;
+}
+
+.Home {
+  background-color: lightgreen;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 80%;
+  margin-inline: auto;
+  border-radius: 10px;
+
+  padding: 1%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border: 3px solid green;
+}
+
+.HBRContainer {
+  padding-bottom: 5%;
+}
+.HomeButtonRegister {
+  padding: 10px 24px;
+  background-color: tan;
+  border-radius: 20px;
+  font-weight: 700;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.HomeButtonRegister:hover {
+  background-color: chocolate;
+}
+
+.Staff {
+  background-color: lightpink;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 80%;
+  margin-inline: auto;
+  border-radius: 10px;
+
+  padding: 1%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+
+  margin-top: 1%;
+  border: 3px solid pink;
+}
+
+.InstituteShop {
+  background-color: lightblue;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 80%;
+  margin-inline: auto;
+  border-radius: 10px;
+
+  padding: 1%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+
+  margin-top: 1%;
+  border: 3px solid blue;
+}
+.UserRegistration {
+  background-color: lightcoral;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 80%;
+  margin-inline: auto;
+  border-radius: 10px;
+
+  padding: 1%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+
+  margin-top: 1%;
+  border: 3px solid red;
+}
+.GuestBook {
+  background-color: lightyellow;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  width: 80%;
+  margin-inline: auto;
+  border-radius: 10px;
+
+  padding: 1%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+
+  margin-top: 1%;
+  border: 3px solid yellow;
+}

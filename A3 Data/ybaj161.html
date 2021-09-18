@@ -1,0 +1,70 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ybaj161</title>
+    <link rel="stylesheet" href="ybaj161.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="http://localhost:5000/api/GetIcon"
+    />
+    <link
+      rel="shortcut icon"
+      href="http://localhost:5000/api/GetIcon"
+      type="image/x-icon"
+    />
+  </head>
+
+  <body onload="LoadPage(1)">
+    <nav>
+      <ol class="navBar" id="navBar">
+        <img
+          src="http://localhost:5000/api/GetLogo"
+          alt="SHIT Logo"
+          style="height: 40; padding: 5"
+        />
+        <li class="navBarLink" style="--Contentvar: '|'" onClick="LoadPage(0)">
+          <a>🏠 Home</a>
+        </li>
+        <li class="navBarLink" style="--Contentvar: '|'" onClick="LoadPage(1)">
+          <a>📰 Staff</a>
+        </li>
+        <li class="navBarLink" style="--Contentvar: '|'" onClick="LoadPage(2)">
+          <a>🛒 Institute Shop</a>
+        </li>
+        <li class="navBarLink" style="--Contentvar: '|'" onClick="LoadPage(3)">
+          <a>👩 User Registration</a>
+        </li>
+        <li class="navBarLink" onClick="LoadPage(4)">
+          <a ::after style="--Contentvar: none">📖 Guest Book</a>
+        </li>
+      </ol>
+    </nav>
+
+    <div class="Home" id="Home">
+      <div class="HHeader">
+        <h1 class="MainCatch">SHIT Education for everyone.</h1>
+      </div>
+      <div class="H2Header">
+        <h2 class="SecondCatch">No Brain required.</h2>
+      </div>
+      <div class="HBRContainer">
+        <button class="HomeButtonRegister" id="HomeButtonRegister">
+          Get into SHIT Now!
+        </button>
+      </div>
+    </div>
+
+    <div class="Staff" id="Staff">
+      <h1>Staff</h1>
+      <div></div>
+    </div>
+
+    <div class="InstituteShop" id="InstituteShop">InstituteShop</div>
+    <div class="UserRegistration" id="UserRegistration">UserRegistration</div>
+    <div class="GuestBook" id="GuestBook">GuestBook</div>
+  </body>
+  <script src="ybaj161.js"></script>
+</html>
