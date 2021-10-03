@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 277">
+<g name="SHIT LOGO">
+	<defs>
+		<clipPath id="cut-off-right">
+		<rect x="37.5" y="0" width="39" height="277" />
+		</clipPath>
+		<clipPath id="cut-off-left">
+		<rect x="75.5" y="0" width="44" height="277" />
+		</clipPath>
+		<mask id="S-Middle-Circles">
+		<rect width="100%" height="100%" fill="white" />
+		<circle cx="76.5" cy="118.5" r="16"/>
+		<circle cx="76.7" cy="173.7" r="16.1"/>
+		</mask>
+	</defs>
+
+	<g name="drop"> 
+		<path d="M 246 6.3 l 0 35 l 14.7 0 z" fill="#FFD800" />
+		<path d="M 246 6.3 l 0 35 l -14.7 0 z" fill="#FFD800" />
+		<circle cx="246.2" cy="46.17" r="15.5" fill="#FFD800"/>
+	</g>
+	<g name="SHIT">
+		<g name="S">
+			<circle cx="76.5" cy="118.5" r="39" clip-path="url(#cut-off-right)" mask="url(#S-Middle-Circles)" />
+			<circle cx="77" cy="173.7" r="39.3" clip-path="url(#cut-off-left)" mask="url(#S-Middle-Circles)" />
+			<rect x="76" y="79.5" width="37.65" height="23" />
+			<rect x="40" y="190" width="37.65" height="23" />
+		</g>
+		<g name="H">
+			<rect x="131" y="77" height="138.35" width="23"/>
+			<rect x="157" y="130.7" height="23" width="38"/>
+			<rect x="192.5" y="77" height="138.35" width="22.8"/>
+		</g>
+		<g name="I"> 
+			<rect x="231" y="77" height="138.35" width="30.5"/>
+		</g>
+		<g name="T">
+			<rect x="277" y="77" height="23" width="43"/>
+			<rect x="300" y="77" height="138.35" width="20"/>
+			<rect x="323.1" y="77" height="23" width="30.69"/>
+		</g>
+	</g>
+
+<text 
+	x="31"
+	y="246"
+	font-family="Verdana"
+	font-size="12px"
+		transform="scale(1.025 1) translate(-0.75 0)"
+		>
+	SOUTHERN HEMISPHERE INSTITUTE OF TECHNOLOGY
+</text>
+</g>
+
+</svg>

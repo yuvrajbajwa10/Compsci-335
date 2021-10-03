@@ -1,0 +1,358 @@
+{
+	"info": {
+		"_postman_id": "b014a320-b42b-4ae5-89d5-f78fa7c54a16",
+		"name": "A2 Requests Marking",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Register success",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"UserName\": \"dcba987\",\r\n    \"Password\": \"dcba987\",\r\n    \"Address\": \"dcba987 way\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:8080/api/Register",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"Register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Register fail",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"UserName\": \"dcba987\",\r\n    \"Password\": \"dcba987\",\r\n    \"Address\": \"dcba987 way\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:8080/api/Register",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"Register"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetVersion (unauthorized 1)",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:8080/api/GetVersionA",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"GetVersionA"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetVersion (unauthorized 2)",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "dcba9876",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "dcba987",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:8080/api/GetVersionA",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"GetVersionA"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetVersion (authorized)",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "dcba987",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "dcba987",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:8080/api/GetVersionA",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"GetVersionA"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PurchaseItem (unauthorized 1)",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:8080/api/PurchaseItem",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"PurchaseItem"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PurchaseItem (unauthorized 2)",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "dcba9876",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "dcba987",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:8080/api/PurchaseItem",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"PurchaseItem"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PurchaseItem (authorized)",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "dcba987",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "dcba987",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"ProductID\": 1234567,\r\n    \"Quantity\": 3\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://localhost:8080/api/PurchaseItem",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"PurchaseItem"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PurchaseSingleItem (unauthorized 1)",
+			"request": {
+				"auth": {
+					"type": "noauth"
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:8080/api/PurchaseSingleItem/156571347",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"PurchaseSingleItem",
+						"156571347"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PurchaseSingleItem (unauthorized 2)",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "dcba9876",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "dcba987",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:8080/api/PurchaseSingleItem/15657134",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"PurchaseSingleItem",
+						"15657134"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "PurchaseSingleItem (authorized)",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "MI6",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "Bond",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://localhost:8080/api/PurchaseSingleItem/156571347",
+					"protocol": "https",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"PurchaseSingleItem",
+						"156571347"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
