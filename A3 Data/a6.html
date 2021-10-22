@@ -1,0 +1,31 @@
+<script defer>
+  function BuyItem2() {
+    const data = localStorage.getItem("id");
+
+    const fetchPromise = fetch(
+      `http://localhost:5000/api/PurchaseSingleItem/155913358`,
+      {
+        headers: {
+          "Content-Type": "text/plain",
+          Authorization: `Basic ${btoa("mercedez:brother")}`,
+        },
+      }
+    );
+  }
+</script>
+
+<div class="InstituteShopList">
+  <img
+    src="http://localhost:5000/api/GetItemPhoto/155913358"
+    alt="Women Fleece Image"
+  />
+  <div class="ItemInfo">
+    <h2>Women Fleece</h2>
+    <h3>$19.99</h3>
+    <p>
+      Soft-beige colour fleece. Sheep skin look. A proven winter investment.
+      Free matching beanie.
+    </p>
+  </div>
+  <button id="155913358" onClick="BuyItem2()">Buy</button>
+</div>
